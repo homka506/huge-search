@@ -2,11 +2,8 @@
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    transition: all 0.2s ease-in;
+    transition: all 0.3s ease-in;
   }
-   * {
-       box-sizing: border-box;
-}
    html {
     height: 100%;
 }
@@ -43,7 +40,7 @@ body {
 
 }
 .ba-content {
-    display: flex;   
+    display: flex;
 }
 .ba-column-1, .ba-column-2, .ba-column-3 { 
     width: 33.33%;
@@ -51,6 +48,7 @@ body {
 .ba-list-1, .ba-list-2, .ba-list-3 {
     list-style:none;
     padding:10px 10px 10px 0;
+   
 }
 .ba-column-1 {
     padding-left: 0;
@@ -73,7 +71,7 @@ li {
 img {
     margin-right: 15px;
 }
- a:hover {
+a:hover {
     background-color: #C2C2C2; 
     color: #EC5A62;
 }
